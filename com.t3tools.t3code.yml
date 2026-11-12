@@ -64,7 +64,7 @@ modules:
       - install -d agy-acp-extract /app/bin
       - unzip agy-acp-server-linux-x86_64.zip -d agy-acp-extract
       - install -Dm755 agy-acp-extract/agy_acp_server.par /app/bin/agy_acp_server.par
-      - install -Dm755 agy-acp-extract/agy_acp_server.par /app/bin/localharness_external
+      - install -Dm755 agy-acp-extract/localharness_external /app/bin/localharness_external
     sources:
       - type: file
         url: https://dl.google.com/agy-extensions/releases/linux/agy-acp-server-1.4.5-linux-x86_64.zip
